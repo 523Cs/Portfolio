@@ -31,7 +31,7 @@
         <a class="nav-link" href="contactme.html">Contact Me</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="topsecret.html">Top Secret</a>
+        <a class="nav-link" href="topsecret.html">WIP</a>
       </li>
     </ul>
   </div>
@@ -45,18 +45,17 @@
     <hr style="border-color: black;">
 
     <body style="background-color: rgb(180, 150, 223);">
-
-
+        
+          
   </div>
   <!-- Intro Header -->
   <div class="container my-5">
     <p class="lead" style="text-align: center;">
       <b>Few things about me is that I have the fattest special interest in the drums and metal music. Listening to metal is so fun and there's so many different genres that I can explore, my favorite being black metal. There are so many patches of metal bands that I want to buy to create another battle vest, I've made one already and its sick as hell.</b>
-      <br>
       <img src="https://i.imgur.com/sURuMFs.png" style="width:400px; height:500px;" />
       <img src="https://i.imgur.com/fmjTOSU.png" style="width:400px; height:500px;" />
       </br>
-      <b>Down below is more information about me from my hobbies to classes I'm currently taking as a junior in high school. As well as a few songs that I enjoy listening to.</b>
+      <b>Down below is more information about me from my hobbies to classes I'm currently taking as a junior in high school. As well as a small carousel that has albums of bands that I enjoy listening to.</b>
     </p>
     <!--Hobbies-->
     <div class="container mt-5">
@@ -85,7 +84,7 @@
                 <h4><b>Personality</b></h4>
               </div>
               <ul class="list-group list-group-flush mt-2">
-                <li class="list-group-item">Outgoing</li>
+                <li class="list-group-item"> Outgoing</li>
                 <li class="list-group-item"> Creative</li>
                 <li class="list-group-item"> Introvert</li>
               </ul>
@@ -106,7 +105,7 @@
                   <li>Environmental Science</li>
                   <li>English 3</li>
                   <li>Spanish 3</li>
-                  <li>Advanced Honors Web Design</li>
+                  <li>Honors Web Design</li>
                 </ul>
               </div>
             </div>
@@ -128,28 +127,120 @@
         </div>
       </div>
     </div>
-    </br>
+    </br>    
 
-    <!-- Music -->
-    <div class="row center">
-      <div class="col-sm-6">
-        <a class="thumbnail" href="https://www.youtube.com/watch?v=8JQDONbHBsQ">
-          <img class="img-rounded" src="https://i.imgur.com/2R4eETO.jpg" style="width;200px; height:200px;" />
-          <a class="thumbnail" href="https://www.youtube.com/watch?v=VRDh-ogdDOU">
-            <img class="img-rounded" src="https://i.imgur.com/Pjbs8Y4.png" style="width:200px; height:200px;" />
-          </a>
-        </a>
-      </div>
-        <div class="col-sm-6">
-          <a class="thumbnail" href="https://www.youtube.com/watch?v=oIOhmJeuo5I">
-            <img class="img-rounded" src="https://imgur.com/acZKMbH.jpg" style="width:200px; height:200px;" />
-            <a class="thumbnail" href="https://www.youtube.com/watch?v=Q0keeVFYdfI">
-              <img class="img-rounded" src="https://i.imgur.com/LPSXyJv.png" style="width:200px; height:200px;" />
+
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+          <title>Albums</title>
+          <meta charset="utf-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+          <style>
+          .carousel-inner > .item > img,
+          .carousel-inner > .item > a > img {
+            width: 70%;
+            margin: auto;
+          }
+          </style>
+        </head>
+        <body>
+        
+        <div class="container">
+          <h2>Band albums</h2>
+          <div id="myCarousel" class="carousel slide">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li class="item1 active"></li>
+              <li class="item2"></li>
+              <li class="item3"></li>
+              <li class="item4"></li>
+            </ol>
+        
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+        
+              <div class="item active">
+                <img src="https://i.imgur.com/QtSUySh.png" alt="TheNbhd" width="460" height="345">
+                <div class="carousel-caption">
+                  <h3>Hard To Imagine</h3>
+                  <p>Album by The Neighbourhood</p>
+                </div>
+              </div>
+        
+              <div class="item">
+                <img src="https://i.imgur.com/5E64hOx.png" alt="Korn" width="460" height="345">
+                <div class="carousel-caption">
+                  <h3>Follow The Leader</h3>
+                  <p>Album by Korn</p>
+                </div>
+              </div>
+            
+              <div class="item">
+                <img src="https://i.imgur.com/hNejTFs.png" alt="Megadeth" width="460" height="345">
+                <div class="carousel-caption">
+                  <h3>The System Has Failed</h3>
+                  <p>Album by Megadeth</p>
+                </div>
+              </div>
+        
+              <div class="item">
+                <img src="https://i.imgur.com/6unqtlq.png" alt="Celtic Frost" width="460" height="345">
+                <div class="carousel-caption">
+                  <h3>Morbid Tales</h3>
+                  <p>Album by Celtic Frost</p>
+                </div>
+              </div>
+          
+            </div>
+        
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" role="button">
+              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
             </a>
-          </a>
+            <a class="right carousel-control" href="#myCarousel" role="button">
+              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
         </div>
-
-
+        
+        <script>
+        $(document).ready(function(){
+          // Activate Carousel
+          $("#myCarousel").carousel();
+            
+          // Enable Carousel Indicators
+          $(".item1").click(function(){
+            $("#myCarousel").carousel(0);
+          });
+          $(".item2").click(function(){
+            $("#myCarousel").carousel(1);
+          });
+          $(".item3").click(function(){
+            $("#myCarousel").carousel(2);
+          });
+          $(".item4").click(function(){
+            $("#myCarousel").carousel(3);
+          });
+            
+          // Enable Carousel Controls
+          $(".left").click(function(){
+            $("#myCarousel").carousel("prev");
+          });
+          $(".right").click(function(){
+            $("#myCarousel").carousel("next");
+          });
+        });
+        </script>
+        
+        </body>
+        </html>
+        
         <!-- Footer -->
         <footer class="mt-5 py-4 bg-dark text-white-50">
           <div class="container text-center">
@@ -162,3 +253,4 @@
 </body>
 
 </html>
+
